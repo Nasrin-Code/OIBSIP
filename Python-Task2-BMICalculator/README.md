@@ -1,36 +1,80 @@
 # BMI Calculator
 
 ## 📌 Project Description
-This is a GUI-based BMI (Body Mass Index) Calculator developed using Python and Tkinter. The application allows users to enter their weight and height, calculate their BMI, and view the corresponding BMI category through a simple and user-friendly interface.
+
+This project is developed as part of the Oasis Infobyte Python Programming Internship.
+
+It contains two implementations of a BMI (Body Mass Index) Calculator:
+
+- Basic Console Application
+- Advanced GUI Application using Tkinter
+
+The application calculates BMI based on the user's weight and height and displays the corresponding BMI category.
 
 ---
 
 ## ✨ Features
-- Calculate BMI
-- Display BMI category
-- GUI built using Tkinter
-- Input validation
-- Error popup using messagebox
-- Reset button
-- User-friendly interface
+
+### Basic Version
+- Console-based application
+- BMI Calculation
+- BMI Category
+- Input Validation
+
+### Advanced GUI Version
+- Tkinter GUI
+- User-friendly Interface
+- BMI Calculation
+- BMI Category
+- Error Handling using MessageBox
+- Reset Button
+- Input Validation
 
 ---
 
 ## 🛠 Technologies Used
+
 - Python
 - Tkinter
 
 ---
 
+## 📂 Project Files
+
+- **bmi_calculator.py** – Basic Console BMI Calculator
+- **bmi_gui.py** – Advanced GUI BMI Calculator using Tkinter
+
+---
+
 ## 🚀 How to Run
 
-1. Download or clone this project.
-2. Open it in VS Code.
-3. Run:
+### Basic Version
 
 ```bash
 python bmi_calculator.py
 ```
+
+### Advanced GUI Version
+
+```bash
+python bmi_gui.py
+```
+
+---
+
+## 📷 Screenshots
+
+### Home Screen
+
+![Home](screenshots/home.png)
+
+### BMI Result
+
+![Result](screenshots/result.png)
+
+### Error Handling
+
+![Error](screenshots/error.png)
 
 ---
 
@@ -38,4 +82,6 @@ python bmi_calculator.py
 
 **Nasrin A**
 
-Python Programming Internship Project – Oasis Infobyte
+Python Programming Internship Project
+
+Oasis Infobyte
