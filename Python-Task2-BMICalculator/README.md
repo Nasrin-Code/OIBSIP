@@ -1,87 +1,84 @@
-# BMI Calculator
+# 🧮 BMI Calculator
 
-## 📌 Project Description
-
-This project is developed as part of the Oasis Infobyte Python Programming Internship.
-
-It contains two implementations of a BMI (Body Mass Index) Calculator:
-
-- Basic Console Application
-- Advanced GUI Application using Tkinter
-
-The application calculates BMI based on the user's weight and height and displays the corresponding BMI category.
-
----
+A Python-based BMI (Body Mass Index) Calculator developed using **Tkinter** for the graphical user interface. The application calculates BMI, classifies the health category, stores records in a CSV file, displays BMI history, and visualizes BMI trends using Matplotlib.
 
 ## ✨ Features
 
-### Basic Version
-- Console-based application
-- BMI Calculation
-- BMI Category
-- Input Validation
-
-### Advanced GUI Version
-- Tkinter GUI
-- User-friendly Interface
-- BMI Calculation
-- BMI Category
-- Error Handling using MessageBox
-- Reset Button
-- Input Validation
-
----
+- Calculate BMI using weight and height
+- Display BMI category (Underweight, Normal Weight, Overweight, Obese)
+- User-friendly Tkinter GUI
+- Input validation with error messages
+- Reset button to clear inputs
+- Save BMI records to a CSV file
+- View previously saved BMI history
+- Visualize BMI records using a graph
+- Color-coded BMI results
+- Automatic timestamp for each record
 
 ## 🛠 Technologies Used
 
 - Python
 - Tkinter
+- CSV
+- Matplotlib
+- Datetime
+- OS Module
 
----
+## 📂 Project Structure
 
-## 📂 Project Files
-
-- **bmi_calculator.py** – Basic Console BMI Calculator
-- **bmi_gui.py** – Advanced GUI BMI Calculator using Tkinter
-
----
-
-## 🚀 How to Run
-
-### Basic Version
-
-```bash
-python bmi_calculator.py
+```
+Python-Task2-BMICalculator/
+│
+├── bmi_calculator.py
+├── bmi_gui.py
+├── bmi_data.csv
+├── README.md
+└── screenshots/
+    ├── home.png
+    ├── error.png
+    ├── result.png
+    ├── history.png
+    └── graph.png
 ```
 
-### Advanced GUI Version
-
-```bash
-python bmi_gui.py
-```
-
----
-
-## 📷 Screenshots
+## 📸 Screenshots
 
 ### Home Screen
 
 ![Home](screenshots/home.png)
 
+### Error Validation
+
+![Error](screenshots/error.png)
+
 ### BMI Result
 
 ![Result](screenshots/result.png)
 
-### Error Handling
+### BMI History
 
-![Error](screenshots/error.png)
+![History](screenshots/history.png)
 
----
+### BMI Graph
+
+![Graph](screenshots/graph.png)
+
+## ▶️ How to Run
+
+1. Clone the repository.
+2. Install Python 3.
+3. Install Matplotlib if not already installed:
+
+```
+pip install matplotlib
+```
+
+4. Run the application:
+
+```
+python bmi_gui.py
+```
 
 ## 👩‍💻 Author
 
 **Nasrin A**
-
-Python Programming Internship Project
-
-Oasis Infobyte
