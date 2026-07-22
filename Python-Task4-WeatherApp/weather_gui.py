@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 from io import BytesIO
 import requests
 
-API_KEY = "9b8ce223a409f1b3b645deefc7cc2103"
+API_KEY = "API"
 
 window = tk.Tk()
 window.title("Weather App")
